@@ -1,0 +1,8 @@
+to activate environment go to folder FASTAPI then run cmd "venv\Scripts\activate"
+
+
+To run Fastapi run cmd : "uvicorn app.main:app"  becoz app is the folder inside that is the main file and in that we have object of fastapi that is app
+
+
+
+all the sensitive variable are stored in environment variable of the machine, but here we are using .env file for storing environment variable, so no sensitive data is leaked
